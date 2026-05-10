@@ -1,0 +1,188 @@
+# =====================================
+# ENVIRONMENT & SECRETS
+# =====================================
+.env
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+*.pem
+*.key
+*.keystore
+
+# =====================================
+# PYTHON
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+pip-log.txt
+pip-delete-this-directory.txt
+venv/
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+.pytype/
+.pyre/
+
+# =====================================
+# NODE/NPM & JAVASCRIPT
+# =====================================
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+.node_repl_history
+*.tsbuildinfo
+dist/
+build/
+out/
+
+# =====================================
+# IDE & EDITOR
+# =====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.env.local
+.vscode-server/
+.prettierignore
+
+# =====================================
+# BUILD & COMPILATION ARTIFACTS
+# =====================================
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.app
+*.class
+*.jar
+*.war
+
+# =====================================
+# LARGE MEDIA FILES (50MB+)
+# =====================================
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.wmv
+
+# Audio
+*.mp3
+*.wav
+*.flac
+*.aac
+*.m4a
+
+# Images (large)
+*.psd
+*.tiff
+*.raw
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# =====================================
+# TEMPORARY & CACHE FILES
+# =====================================
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+.cache/
+.tmp/
+temp/
+tmp/
+*.cache
+.parcel-cache
+.next
+out
+
+# =====================================
+# DATABASE
+# =====================================
+*.db
+*.sqlite
+*.sqlite3
+*.mongo
+*.sqlc
+.mongod.*
+
+# =====================================
+# SYSTEM FILES
+# =====================================
+.DS_Store
+Thumbs.db
+.directory
+.AppleDouble
+.LSOverride
+ehthumbs.db
+Desktop.ini
+
+# =====================================
+# LOCAL ASSETS & LARGE FILES
+# =====================================
+/local_assets_not_for_github/
+/large_files/
+/media_staging/
+
+# =====================================
+# FIREBASE & GOOGLE
+# =====================================
+firebase-debug.log
+.firebase/
+firestore-debug.log
+pubsub-debug.log
+
+# =====================================
+# PROJECT SPECIFIC
+# =====================================
+PROJECT_REPORT.txt
+/screenshots/
+/docs/generated/
+*.log
